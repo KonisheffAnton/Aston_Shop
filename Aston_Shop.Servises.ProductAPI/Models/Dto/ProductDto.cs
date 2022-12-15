@@ -1,14 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Aston_Shop.Servises.ProductAPI.Models
+namespace Aston_Shop.Servises.ProductAPI.Models.Dto
 {
-    public class Product
+    public class ProductDto
     {
-        [Key]
         public int ProductId { get; set; }
-        [Required]
         public string Name_Product { get; set; }
-        [Range(1, 1000)]
         public double Price_Product { get; set; }
         public string Description_Product { get; set; }
         public string CategoryName_Product { get; set; }

@@ -9,6 +9,6 @@ namespace Aston_Shop.Servises.ProductAPI.DbContexts
         {
            
         }
-        public DbSet<Product> Product { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
